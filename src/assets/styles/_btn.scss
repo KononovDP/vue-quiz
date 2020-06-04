@@ -1,3 +1,25 @@
 .btn {
-    color: red;
+  display: inline-block;
+  min-width: 160px;
+  padding: 10px 20px;
+  background: #eee;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  box-shadow: 0 0 5px 0 #ddd;
+  text-transform: uppercase;
+  transition: all .3s;
+  cursor: pointer;
+  &:hover, &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: default;
+  }
 }

@@ -13,10 +13,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .footer {
-    padding: 10px 0;
-    background-color: #ccc;
-    box-shadow: 0 -3px 5px 0 rgba(0,0,0,.5);
-    text-align: center;
-  }
+.footer {
+  padding: 10px 0;
+  background-color: #ccc;
+  box-shadow: 0 -3px 5px 0 rgba(0,0,0,.5);
+  text-align: center;
+}
 </style>

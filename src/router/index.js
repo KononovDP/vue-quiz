@@ -13,8 +13,13 @@ const routes = [
   {
     path: "/quiz",
     name: "Quiz",
+    component: () => import(/* webpackChunkName: "quiz" */ "../views/Quiz.vue")
+  },
+  {
+    path: "/results",
+    name: "Results",
     component: () =>
-      import(/* webpackChunkName: "quiz" */ "../views/Quiz.vue")
+      import(/* webpackChunkName: "results" */ "../views/Results.vue")
   }
 ];
 
